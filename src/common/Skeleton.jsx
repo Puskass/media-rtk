@@ -20,6 +20,7 @@ const Skeleton = ({ times, className }) => {
     "via-white",
     "to-gray-200"
   );
+
   const boxes = Array(times)
     .fill(0)
     .map((_, i) => {

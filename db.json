@@ -1,5 +1,18 @@
 {
-  "users": [{ "id": 1, "name": "Halid" }],
+  "users": [
+    {
+      "id": 1,
+      "name": "Halid"
+    },
+    {
+      "name": "Bryan Hickle",
+      "id": 2
+    },
+    {
+      "name": "Tony Ankunding-Jast",
+      "id": 3
+    }
+  ],
   "albums": [],
   "photos": []
 }
