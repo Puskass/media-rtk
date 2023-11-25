@@ -3,8 +3,8 @@ import { usersReducer } from "./slices/usersSlice";
 
 export const store = configureStore({
   reducer: {
-    reducer: {
-      users: usersReducer,
-    },
+    users: usersReducer,
   },
 });
+
+export * from "./thunks/fetchUsers";
