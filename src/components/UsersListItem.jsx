@@ -8,7 +8,7 @@ const UsersListItem = ({ user }) => {
   const [doRemoveUser, isLoading, error] = useThunk(removeUser);
 
   const handleRemoveUser = () => {
-    doRemoveUser();
+    doRemoveUser(user);
   };
 
   return (
