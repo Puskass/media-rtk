@@ -12,11 +12,6 @@ Async Thunk Functions in Redux are a way to handle asynchronous logic within Red
 
 3. **Thunk Middleware:** Redux Thunk middleware enables the dispatch of functions as actions, allowing for more dynamic and complex behavior.
 
-### Cons:
-
-1. **Learning Curve:** Thunks might have a learning curve, especially for developers new to Redux or asynchronous JavaScript.
-
-2. **Boilerplate:** While Redux Toolkit helps reduce boilerplate, writing thunks might still involve more code compared to simpler actions.
 
 ---
 
@@ -34,13 +29,6 @@ Redux Toolkit Query is a data fetching and caching library that simplifies state
 
 4. **Server-Side Rendering (SSR) Support:** Redux Toolkit Query is designed to work well with server-side rendering, providing efficient data fetching in SSR environments.
 
-### Cons:
-
-1. **Learning Curve:** There might be a learning curve associated with understanding the concepts of queries, mutations, and the overall workflow of Redux Toolkit Query.
-
-2. **Additional Dependencies:** Redux Toolkit Query might introduce additional dependencies to your project.
-
-3. **Redux Dependency:** If your project doesn't use Redux, introducing Redux Toolkit Query might be an overhead.
 
 ---
 
